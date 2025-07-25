@@ -14,7 +14,7 @@ export default function AdminReopenCase() {
   const [tasks, setTasks] = useState([]);
   const [activeTab, setActiveTab] = useState('all');
   const [selectedTask, setSelectedTask] = useState(null);
-  const [assignee, setAssignee] = useState('');
+  const [setAssignee] = useState('');
   const [notificationMessage, setNotificationMessage] = useState('');
   const [toRecipients, setToRecipients] = useState([]);
   const [message, setMessage] = useState(null);
