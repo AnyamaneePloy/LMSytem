@@ -1,5 +1,5 @@
 // const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000';
-const API_BASE_URL = 'https://lmsytem-production.up.railway.app/'|| 'http://localhost:4000';; // from Railway
+const API_BASE_URL =  'http://localhost:4000';
 
 
 export async function getClosedCases() {
