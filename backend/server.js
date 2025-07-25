@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const cors = require('cors');
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 const DB_PATH = './db_reopen.json';
 
 app.use(cors());
@@ -35,10 +35,8 @@ app.get('/tasks', (req, res) => {
 app.get('/tasks/closed', (req, res) => {
   const db = loadDB();
   const closed = db.tasks.filter(t => t.status === 'closed');
-  res.json(closed); // ✅ should return an array
+  res.json(closed);
 });
-
-
 
 // POST /tasks/:id/reopen
 app.post('/tasks/:id/reopen', (req, res) => {
@@ -46,7 +44,7 @@ app.post('/tasks/:id/reopen', (req, res) => {
   const { reopenReason, comment, assignedTo } = req.body;
 
   const db = loadDB();
-  const index = db.tasks.findIndex(t => t.caseId === Number(id)); // NOT t.id
+  const index = db.tasks.findIndex(t => t.caseId === Number(id));
 
   if (index === -1) {
     return res.status(404).json({ error: 'Case not found' });
@@ -62,7 +60,6 @@ app.post('/tasks/:id/reopen', (req, res) => {
   res.json({ success: true });
 });
 
-
 app.listen(PORT, () => {
-  console.log(`✅ Server running at http://localhost:${PORT}`);
+  console.log(`✅ Server is running on port ${PORT}`);
 });
