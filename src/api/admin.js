@@ -1,4 +1,6 @@
-const API_BASE_URL = 'https://lms-backend.up.railway.app' //'http://localhost:4000'; // or your backend URL
+// const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000';
+const API_BASE_URL = 'https://legal-backend-production.up.railway.app'|| 'http://localhost:4000';; // from Railway
+
 
 export async function getClosedCases() {
   const res = await fetch(`${API_BASE_URL}/tasks`);
@@ -22,4 +24,3 @@ export async function submitReopenCase(payload) {
 
   return await res.json();
 }
-

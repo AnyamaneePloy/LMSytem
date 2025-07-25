@@ -4,14 +4,18 @@ WORKDIR /app
 
 COPY package*.json ./
 RUN npm install
-
 COPY . .
 RUN npm run build
 
-# Serve Stage
-FROM nginx:stable-alpine
-COPY --from=builder /app/build /usr/share/nginx/html
-COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+# Production Stage (Express serves API + frontend)
+FROM node:18-alpine
+WORKDIR /app
 
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+COPY package*.json ./
+RUN npm install --production
+
+COPY server.js db_reopen.json ./
+COPY --from=builder /app/build ./build
+
+EXPOSE 4000
+CMD ["node", "server.js"]
