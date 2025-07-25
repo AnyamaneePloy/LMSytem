@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "caseId": 1,
+      "caseNumber": "CIV-2024-001",
+      "clientName": "John Doe",
+      "caseType": "Civil",
+      "closedDate": "2024-01-15",
+      "status": "closed"
+    },
+    {
+      "caseId": 2,
+      "caseNumber": "CRIM-2024-002",
+      "clientName": "Mike Johnson",
+      "caseType": "Criminal",
+      "closedDate": "2024-01-13",
+      "status": "reopen"
+    },
+    {
+      "caseId": 3,
+      "caseNumber": "BANK-2024-003",
+      "clientName": "Alice Smith",
+      "caseType": "Bankruptcy",
+      "closedDate": "2024-02-10",
+      "status": "closed"
+    },
+    {
+      "caseId": 4,
+      "caseNumber": "CIV-2024-004",
+      "clientName": "Robert Brown",
+      "caseType": "Civil",
+      "closedDate": "2024-03-05",
+      "status": "reopen"
+    },
+    {
+      "caseId": 5,
+      "caseNumber": "CRIM-2024-005",
+      "clientName": "Maria Garcia",
+      "caseType": "Criminal",
+      "closedDate": "2024-04-12",
+      "status": "closed"
+    },
+    {
+      "caseId": 6,
+      "caseNumber": "CIV-2024-006",
+      "clientName": "James Wilson",
+      "caseType": "Civil",
+      "closedDate": "2024-05-01",
+      "status": "reopen"
+    },
+    {
+      "caseId": 7,
+      "caseNumber": "BANK-2024-007",
+      "clientName": "Patricia Martinez",
+      "caseType": "Bankruptcy",
+      "closedDate": "2024-06-20",
+      "status": "closed"
+    }
+  ]
+}

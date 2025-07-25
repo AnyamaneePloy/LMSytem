@@ -1,0 +1,292 @@
+[
+  {
+    "template_code": "EM01",
+    "template_name": "งานรออนุมัติเพื่อขอใช้บริการงานกฎหมาย",
+    "from": [
+      "Requester (สร้างคำขอโดย SBU)",
+      "Processor / Operator (สร้างคำขอโดย Legal)"
+    ],
+    "to": [
+      "Approver SBU",
+      "Approver Legal"
+    ],
+    "cc": [
+      "เลขานุการ (ตอนงานมาหาพี่ใหญ่)"
+    ],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : เพื่อขออนุมัติใช้บริการงานกฎหมาย",
+    "body_template": "เรียนผู้อนุมัติ {Approver},\n\nโปรดพิจารณาอนุมัติการใช้บริการงานกฎหมาย\n\nบริษัทผู้ร้องขอ : {Customerต้นสังกัด}\nหัวข้อ : {ชื่อ Case (Subject)}\nรายละเอียด Case\n\nโปรดคลิก Link เข้าระบบ เพื่ออนุมัติรายการ : {Hyperlink}\n\nหมายเหตุ: อีเมลฉบับนี้ถูกส่งจากระบบอัตโนมัติ **กรุณาอย่าตอบกลับ (Do not reply)** เนื่องจากกล่องจดหมายนี้ไม่ได้รับการดูแล\nกรณีมีปัญหาการใช้งานระบบ กรุณาติดต่อทีม IT Support หรือ TGW_Support@techgateway.co.th"
+  },
+  {
+    "template_code": "EM02",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 2",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 2"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 2",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM02.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM03",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 3",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 3"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 3",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM03.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM04",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 4",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 4"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 4",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM04.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM05",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 5",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 5"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 5",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM05.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM06",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 6",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 6"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 6",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM06.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM07",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 7",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 7"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 7",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM07.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM08",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 8",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 8"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 8",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM08.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM09",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 9",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 9"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 9",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM09.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM10",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 10",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 10"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 10",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM10.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM11",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 11",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 11"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 11",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM11.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM12",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 12",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 12"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 12",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM12.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM13",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 13",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 13"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 13",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM13.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM14",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 14",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 14"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 14",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM14.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM15",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 15",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 15"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 15",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM15.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM16",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 16",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 16"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 16",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM16.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM17",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 17",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 17"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 17",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM17.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM18",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 18",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 18"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 18",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM18.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM19",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 19",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 19"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 19",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM19.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM20",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 20",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 20"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 20",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM20.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM21",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 21",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 21"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 21",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM21.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  },
+  {
+    "template_code": "EM22",
+    "template_name": "อีเวนต์แจ้งเตือนลำดับที่ 22",
+    "from": [
+      "System"
+    ],
+    "to": [
+      "User Group 22"
+    ],
+    "cc": [],
+    "subject_template": "[LM System - {รหัส Case}{Subject Case}] : หัวข้อแจ้งเตือน 22",
+    "body_template": "เรียนผู้ใช้งาน,\n\nนี่คือเนื้อหาอีเมลสำหรับเหตุการณ์ EM22.\n\nรายละเอียดเพิ่มเติม: {Hyperlink}"
+  }
+]
