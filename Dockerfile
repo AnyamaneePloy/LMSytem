@@ -14,7 +14,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install --production
 
-COPY server.js db_reopen.json ./
+COPY backend/server.js backend/db_reopen.json ./
 COPY --from=builder /app/build ./build
 
 EXPOSE 4000
