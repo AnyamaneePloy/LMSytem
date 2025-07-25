@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:4000'; // or your backend URL
+const API_BASE_URL = 'https://lms-backend.up.railway.app' //'http://localhost:4000'; // or your backend URL
 
 export async function getClosedCases() {
   const res = await fetch(`${API_BASE_URL}/tasks`);
