@@ -1,0 +1,22 @@
+# railway.yml
+
+services:
+  - name: backend
+    rootDir: backend
+    startCommand: node server.js
+    buildCommand: docker build -t backend .
+    dockerfilePath: Dockerfile
+    installCommand: npm install
+    healthcheckPath: /tasks
+    env:
+      PORT: 4000
+
+  - name: frontend
+    rootDir: .
+    startCommand: nginx -g 'daemon off;'
+    buildCommand: docker build -t frontend -f Dockerfile.frontend .
+    dockerfilePath: Dockerfile.frontend
+    installCommand: npm install
+    healthcheckPath: /
+    env:
+      NODE_ENV: production
