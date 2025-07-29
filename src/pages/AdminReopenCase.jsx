@@ -58,7 +58,6 @@ export default function AdminReopenCase() {
 
       setMessage({ type: 'success', text: '✅ Task has been reopened and assigned.' });
       setSelectedTask(null);
-      setAssignee('');
       setNotificationMessage('');
       setToRecipients([]);
       setCcRecipients([]);
